@@ -16,7 +16,9 @@ This Python script is a simple directory and file brute-forcing tool designed to
 ## Requirements
 
 - Python 3.x
-- requests library (install it using `pip install requests`)
+- requests library (install it using `pip`)
+     ```bash
+  pip install requests
 
 ## Usage
 
@@ -24,21 +26,16 @@ This Python script is a simple directory and file brute-forcing tool designed to
 
    ```bash
    git clone https://github.com/yourusername/directory-bruteforce.git
-Navigate to the project directory:
-
-bash
-cd directory-bruteforce
-
-Run the script:
-bash
-python directory_bruteforce.py
+   cd directory-bruteforce
+   python brute.py   
+   
 
 Follow the on-screen prompts to input the target URL, wordlist file, and choose whether to save the results.
 
 Example
+   ```bash
 
-bash
-$ python directory_bruteforce.py
+$ python brute.py
 
 Enter the target URL: https://example.com
 Enter the path to the wordlist text file: wordlist.txt
@@ -50,5 +47,7 @@ Enter the path to the wordlist text file: wordlist.txt
 Do you want to save the 'Found 200 OK' results to a text file? (yes/no): yes
 Results saved to 'results.txt'.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+```
+## License
+
+This project is licensed under the [MIT License](LICENSE).
